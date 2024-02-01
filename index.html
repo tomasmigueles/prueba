@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">inicio</a>
+                </li>
+                <li>
+                    <a href="pages/servicios.html">servicios</a>
+                </li>
+                <li>
+                    <a href="#contact">contacto</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com">premios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Enlaces | hipervinculos | donde el usuario puede hacer click y es redireccionado | ancla | atributo href = hipervinculo de referencia-->
+
+    <!-- Enlances acsolutos | redirecciona al usuario a una pagina o enlace externo a nuestra web -->
+
+    <!-- El atributo que me ayuda a que el enlace se abra en una nueva pestasña es target y su valor es _blank-->
+    <a href="https:www.google.com" target="_blank">
+        Ver mas
+    </a>
+
+    <!--Enlances relativos | redirecciona al usuario a un nuevo archivo dentro de nuestro sitio o proyecto-->
+    <a href="/pages/servicios.html">
+        servicios
+    </a>
+
+<!--Enlace iterno | Redirecciona al usuario a una seccion dentro del mismo archivo | Lo redirecciona o conecto con seccion a la cual quiero llevar al usuario, utilizando el simbolo # seguido del nombre de la seccion a conectar | # hace referencia a un id -->
+<a href="#contact">
+    contacto
+</a>
+
+<!-- Si quiero identificarla,puedo usar el atributo ID | Dentro de las comillas agrego el nombre d ela seccion-->
+<section id="contact">
+<a href="https://wa.me/549137845235">Hablemos por whatsap</a>
+</section>
+
+
+<!--Imagenes | SRC -> ME pregunta cual es la ruta d la imagen que quiero mostrar | ALT -> texto alternativo y cumple varias funciones -La primera es que es la descripcion de la imagen por si se rompe la ruta- La segunda es la descripcion del elemento html para los sistemas de apoyo para personas no videntes | super importante crear buenas descripciones- LA tercera las palabras claves para el posicionamiento SEO, cada palabra dentro de la descripcion ayuda a que encuentra nuestra web-->
+<img src="multimedia/polo.JPG" alt="perro pequeño apoyado en el respaldo de un sillon color gris">
+
+<!-- imagen clikeable | redirije a un sitio especifico-->
+<a href="https://polobebe.com">
+    <img src="multimedia/polo.JPG" alt="perro pequeño apoyado en el respaldo de un sillon color gris">
+</a>
+
+<!--Formato de imagen jpg, png, svg, avif, webp, jpeg200, gif -->
+
+<!--Es para incrustar videos internos,es decir, que esten dentro de nuestro proyecto |  tengo que agregarle el atributo controls para que me permita utilizarlo -->
+<video src="multimedia/videodepolobebe.MOV"controls></video>
+<audio src=""controls></audio>
+
+
+<!--Youtube | iframe es un extracto de html de otra web -->
+<!-- Dentro del iframe se define el ancho y alto | title que es un atributo parecido al alt para videos y mapas u otros iframe-->
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gMyMvCRJwr4?si=mDa9y2fnIbH5n2mH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!--GOOGLE MAPA-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64612913.34737297!2d-123.03896425!3d8.723869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaccf4a5be6f%3A0x97ebb6aac5198f6c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1704239200169!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!--playlist spotify-->
+<!--compartir. insertar (seleccionar tamaño estilo)copiar iframe -->
+
+</body>
+</html>
